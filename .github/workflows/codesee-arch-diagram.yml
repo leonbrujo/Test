@@ -1,81 +1,77 @@
-on:
-  push:
-    branches:
-      - main
-  pull_request_target:
-    types: [opened, synchronize, reopened]
+using System;
 
-name: CodeSee Map
+public class Ejercicio22
+{
+    public static void Main()
+    {
+        int numero, resultado, divisorActual = 1, divisores = 0, numero2 = 0, divisorActual2 = 1, divisores2 = 0;
 
-jobs:
-  test_map_action:
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    name: Run CodeSee Map Analysis
-    steps:
-      - name: checkout
-        id: checkout
-        uses: actions/checkout@v2
-        with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
-          fetch-depth: 0
+        Console.Write("Ingrese el primer número entero: ");
+        numero = Convert.ToInt32(Console.ReadLine());
 
-      # codesee-detect-languages has an output with id languages.
-      - name: Detect Languages
-        id: detect-languages
-        uses: Codesee-io/codesee-detect-languages-action@latest
+        Console.Write("Ingrese el segundo número entero: ");//forzar para que sea mayor a *numero
+        numero2 = Convert.ToInt32(Console.ReadLine());
 
-      - name: Configure JDK 16
-        uses: actions/setup-java@v2
-        if: ${{ fromJSON(steps.detect-languages.outputs.languages).java }}
-        with:
-          java-version: '16'
-          distribution: 'zulu'
+        while (numero > numero2)
+        {
+            Console.Write("El segundo numero debe ser mayor al primer numero. Ingrese el segundo número entero: ");//forzar para que sea mayor a *numero
+            numero2 = Convert.ToInt32(Console.ReadLine());
+        }
+        while (divisorActual <= numero)
+        {
+            if (numero % divisorActual == 0)
+            {
+                divisores++;
+            }
 
-      # CodeSee Maps Go support uses a static binary so there's no setup step required.
+            if (divisorActual == numero)
+            {
+                if (divisores == 2)
+                {
+                    //Nada
+                }
+                else
+                {
+                    divisorActual = 0;
+                    divisores = 0;
+                    numero++;
+                }
+            }
+            divisorActual++;
 
-      - name: Configure Node.js 14
-        uses: actions/setup-node@v2
-        if: ${{ fromJSON(steps.detect-languages.outputs.languages).javascript }}
-        with:
-          node-version: '14'
+            while (divisorActual2 <= numero2)
+            {
+                if (numero2 % divisorActual2 == 0)
+                {
+                    divisores2++;
+                }
 
-      - name: Configure Python 3.x
-        uses: actions/setup-python@v2
-        if: ${{ fromJSON(steps.detect-languages.outputs.languages).python }}
-        with:
-          python-version: '3.x'
-          architecture: 'x64'
+                if (divisorActual2 == numero2)
+                {
+                    if (divisores2 == 2)
+                    {
+                        //Nada
+                    }
+                    else
+                    {
+                        divisorActual2 = 0;
+                        divisores2 = 0;
+                        numero2--;
+                    }
+                }
+                divisorActual2++;
+            }
+        }
 
-      - name: Configure Ruby '3.x'
-        uses: ruby/setup-ruby@v1
-        if: ${{ fromJSON(steps.detect-languages.outputs.languages).ruby }}
-        with:
-          ruby-version: '3.0'
+        resultado = numero2 - numero;
 
-      # CodeSee Maps Rust support uses a static binary so there's no setup step required.
-
-      - name: Generate Map
-        id: generate-map
-        uses: Codesee-io/codesee-map-action@latest
-        with:
-          step: map
-          github_ref: ${{ github.ref }}
-          languages: ${{ steps.detect-languages.outputs.languages }}
-
-      - name: Upload Map
-        id: upload-map
-        uses: Codesee-io/codesee-map-action@latest
-        with:
-          step: mapUpload
-          api_token: ${{ secrets.CODESEE_ARCH_DIAG_API_TOKEN }}
-          github_ref: ${{ github.ref }}
-      
-      - name: Insights
-        id: insights
-        uses: Codesee-io/codesee-map-action@latest
-        with:
-          step: insights
-          api_token: ${{ secrets.CODESEE_ARCH_DIAG_API_TOKEN }}
-          github_ref: ${{ github.ref }}
+        if (resultado < 0)
+           Console.WriteLine("No hay numeros primos en la serie");
+        else
+        {
+            Console.WriteLine("El menor numero primo de la serie es = {0}", numero);
+            Console.WriteLine("El mayor numero primo de la serie es = {0}", numero2);
+            Console.WriteLine("El resultado de la resta entre los numeros primos es = {0}", resultado);
+        }
+    }
+}
