@@ -9,8 +9,21 @@
       "Economía",
       "América Latina"
     ],
-    "summary": "La agenda internacional incluye un ataque a un carguero en el golfo de Omán, interceptaciones sobre Arabia Saudita y negociaciones de gobierno en Israel.",
+    "summary": "La agenda internacional incluye un ataque a un carguero en el golfo de Omán, interceptaciones sobre Arabia Saudita y negociaciones de gobierno en Israel. Ampliación editorial: protestas europeas y crisis Haití–El Salvador.",
     "cutoff_at": "2026-11-08T06:00:00-05:00",
-    "revision": 1
+    "revision": 2,
+    "updated_on": "2026-11-08",
+    "addendum": [
+      "europa-movilizaciones-costo-vida-2026",
+      "haiti-el-salvador-intervencion-2026"
+    ],
+    "corrections": [
+      {
+        "date": "2026-11-08",
+        "type": "ampliacion_editorial",
+        "description": "Incorporadas protestas europeas del 7 de noviembre y crisis de Haití/El Salvador, omitidas en primera selección. La versión 1 se conserva de forma accesible.",
+        "original_url": "https://leonbrujo.github.io/Test/ediciones/2026-11-08/version-1.html"
+      }
+    ]
   }
 ]
