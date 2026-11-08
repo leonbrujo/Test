@@ -48,34 +48,82 @@ close.addEventListener('click',()=>dismiss(true));
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!pop.hidden){e.preventDefault();dismiss(true)}});
 window.addEventListener('resize',place,{passive:true});
 window.addEventListener('scroll',place,{passive:true});
+
+/* Criterio editorial: marcar la primera mención de las entidades realmente
+   necesarias para entender cada bloque, sin dejar fuera a las del resumen. */
 const seen=new Map();
 const targets=document.querySelectorAll('main .lead p, main .feature h3, main .feature .story-paragraph, main .brief h3, main .brief p, main .analysis p, main .watch-list strong, main .watch-list p, main .river article strong, main .river article p');
+const categoryWeight={'PERSONA':5,'EMPRESA':5,'ACTOR ARMADO':5,'INSTITUCIÓN':4,'ORGANISMO':4,'CONCEPTO':4,'CONFERENCIA':4,'LUGAR':3,'REGIÓN':3,'PAÍS':2,'JUGADOR':2};
+const priorityOf=i=>{
+ const e=entries[i];
+ const editorial=e.priority==='esencial'?10:e.priority==='alta'?8:e.priority==='baja'?0:undefined;
+ return editorial===undefined?(categoryWeight[e.kind]||3):editorial;
+};
 let total=0;
 for(const block of targets){
- if(total>=70)break;
+ if(total>=100)break;
  const section=block.closest('article, .lead, .analysis, .watch-list, .river')||block;
  if(!seen.has(section))seen.set(section,new Set());
  const already=seen.get(section);
+ const isLead=!!block.closest('.lead');
+ /* El panorama editorial debe explicar los actores principales: no limitarlo a 3. */
+ const maxBlock=isLead?10:block.matches('h3')?3:block.classList.contains('story-paragraph')?4:3;
  const walker=document.createTreeWalker(block,NodeFilter.SHOW_TEXT,{
-   acceptNode(node){const p=node.parentElement;if(!p||!node.nodeValue.trim()||p.closest('a,button,script,style,.sources,.eog-term,.eog-popover'))return NodeFilter.FILTER_REJECT;return NodeFilter.FILTER_ACCEPT}
+  acceptNode(node){
+   const parent=node.parentElement;
+   if(!parent||!node.nodeValue.trim()||parent.closest('a,button,script,style,.sources,.eog-term,.eog-popover'))return NodeFilter.FILTER_REJECT;
+   return NodeFilter.FILTER_ACCEPT
+  }
  });
  const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
- let usedInBlock=0;
+ const matches=[];let counter=0;
  for(const node of nodes){
-  if(usedInBlock>=3||total>=70)break;
-  const txt=node.nodeValue,parts=document.createDocumentFragment();
-  let from=0,changed=false;re.lastIndex=0;
-  let m;
-  while((m=re.exec(txt))!==null && usedInBlock<3 && total<70){
-   const leading=m[1].length,word=m[2],start=m.index+leading,index=lookup.get(word.toLocaleLowerCase('es'));
-   if(index===undefined||already.has(index)){continue}
-   parts.appendChild(document.createTextNode(txt.slice(from,start)));
-   const btn=document.createElement('button');btn.type='button';btn.className='eog-term';btn.textContent=word;btn.setAttribute('aria-label',word+': tocar para saber más');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-haspopup','dialog');btn.setAttribute('aria-controls',pop.id);btn.addEventListener('click',()=>show(btn,index));
-   parts.appendChild(btn);from=start+word.length;already.add(index);changed=true;usedInBlock++;total++;
+  re.lastIndex=0;let match;
+  while((match=re.exec(node.nodeValue))!==null){
+   const word=match[2],index=lookup.get(word.toLocaleLowerCase('es'));
+   if(index===undefined||already.has(index))continue;
+   const start=match.index+match[1].length;
+   matches.push({node,start,end:start+word.length,word,index,sequence:counter++});
   }
-  if(changed){parts.appendChild(document.createTextNode(txt.slice(from)));node.replaceWith(parts)}
+ }
+ if(!matches.length)continue;
+ /* Selección por relevancia: en textos densos, personas y entidades
+    esenciales tienen precedencia frente a referencias conocidas. */
+ const firstByEntry=new Map();
+ for(const m of matches){
+  if(!firstByEntry.has(m.index))firstByEntry.set(m.index,m);
+ }
+ const selected=[...firstByEntry.values()]
+  .sort((a,b)=>priorityOf(b.index)-priorityOf(a.index)||a.sequence-b.sequence)
+  .slice(0,Math.min(maxBlock,100-total));
+ const byNode=new Map();
+ for(const m of selected){
+  if(!byNode.has(m.node))byNode.set(m.node,[]);
+  byNode.get(m.node).push(m);
+  already.add(m.index);
+  total++;
+ }
+ for(const [node,matchesInNode] of byNode){
+  matchesInNode.sort((a,b)=>a.start-b.start);
+  const text=node.nodeValue,frag=document.createDocumentFragment();
+  let cursor=0;
+  for(const match of matchesInNode){
+   frag.appendChild(document.createTextNode(text.slice(cursor,match.start)));
+   const btn=document.createElement('button');
+   btn.type='button';btn.className='eog-term';btn.textContent=match.word;
+   btn.setAttribute('aria-label',match.word+': tocar para saber más');
+   btn.setAttribute('aria-expanded','false');
+   btn.setAttribute('aria-haspopup','dialog');
+   btn.setAttribute('aria-controls',pop.id);
+   btn.addEventListener('click',()=>show(btn,match.index));
+   frag.appendChild(btn);
+   cursor=match.end;
+  }
+  frag.appendChild(document.createTextNode(text.slice(cursor)));
+  node.replaceWith(frag);
  }
 }
+
 if(total){
  const first=document.querySelector('main .lead');
  if(first){const tip=document.createElement('div');tip.className='eog-context-hint';const dot=document.createElement('span');dot.className='eog-mini-dot';dot.setAttribute('aria-hidden','true');tip.append(dot,document.createTextNode('Tocá las palabras subrayadas para ver su contexto'));first.append(tip)}
