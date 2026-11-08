@@ -1,0 +1,19 @@
+
+/* El Observador Global — contexto a un toque (v1) */
+.eog-term{appearance:none;-webkit-appearance:none;display:inline;border:0;border-bottom:1.5px dotted #a3474a;border-radius:0;background:transparent;box-shadow:none;padding:0;margin:0;color:inherit;font:inherit;line-height:inherit;text-align:inherit;cursor:help;text-decoration:none;text-underline-offset:.18em;-webkit-tap-highlight-color:rgba(158,40,49,.10)}
+.eog-term:hover,.eog-term[aria-expanded="true"]{color:#921c25;border-bottom-style:solid;background:rgba(155,27,33,.065)}
+.eog-term:focus-visible{outline:2px solid #9b1b21;outline-offset:3px;border-radius:2px}
+.eog-context-hint{font-family:var(--sans,system-ui,sans-serif);font-size:.72rem;color:#667078;display:flex;align-items:center;justify-content:center;gap:8px;margin:15px auto 6px}
+.eog-context-hint .eog-mini-dot{border-bottom:2px dotted #a3474a;min-width:17px;height:14px}
+.eog-popover{position:fixed;z-index:2147480000;box-sizing:border-box;width:min(360px,calc(100vw - 24px));padding:19px 20px 17px;background:#fffdf9;color:#182331;border:1px solid #d9d3cc;border-top:3px solid #9b1b21;border-radius:8px;box-shadow:0 14px 40px rgba(12,26,42,.18);font-family:var(--sans,system-ui,sans-serif);line-height:1.55;text-align:left}
+.eog-popover[hidden],.eog-shade[hidden]{display:none!important}
+.eog-popover-head{display:flex;align-items:flex-start;gap:14px;justify-content:space-between}
+.eog-popover-kind{margin:0 0 5px;color:#9b1b21;letter-spacing:.11em;text-transform:uppercase;font-size:.64rem;font-weight:750}
+.eog-popover-title{margin:0;font-family:var(--serif,Georgia,serif);font-size:1.2rem;letter-spacing:-.025em;line-height:1.35;color:#172331}
+.eog-popover-body{margin:11px 0 0;font-family:var(--sans,system-ui,sans-serif)!important;font-size:.9rem;line-height:1.62;color:#343f4c}
+.eog-popover-close{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:29px;height:29px;border:1px solid #d9d3cc;border-radius:50%;background:#fff;color:#4d5660;font-size:22px;line-height:1;cursor:pointer}
+.eog-popover-close:hover,.eog-popover-close:focus-visible{background:#f5ebeb;color:#9b1b21}
+.eog-popover-footer{font-size:.68rem;color:#777b81;margin:13px 0 0;border-top:1px solid #ede7e1;padding-top:10px}
+.eog-shade{position:fixed;inset:0;z-index:2147479999;background:transparent}
+@media(max-width:650px){.eog-popover{left:12px!important;right:12px!important;bottom:max(12px,env(safe-area-inset-bottom))!important;top:auto!important;width:auto!important;max-height:min(55vh,420px);overflow:auto;padding:20px;border-radius:12px;box-shadow:0 0 0 100vmax rgba(20,30,40,.20),0 14px 45px rgba(10,22,35,.24)}.eog-context-hint{font-size:.68rem;line-height:1.45;padding:0 15px;text-align:center}}
+@media print{.eog-term{border:0!important;cursor:inherit}.eog-context-hint,.eog-popover,.eog-shade{display:none!important}}
