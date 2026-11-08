@@ -6,13 +6,16 @@ on:
       - 'observador-global/**'
       - '.github/workflows/observador-global-pages.yml'
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: observador-pages
   cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -21,11 +24,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Configurar alojamiento gratis
+      - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - name: Preparar sitio estático
+      - name: Preparar sitio
         uses: actions/upload-pages-artifact@v3
         with:
           path: observador-global
