@@ -1,14 +1,14 @@
 {
   "description": "Agenda viva de procesos estructuralmente relevantes. No impone cuotas ni obliga a publicar noticias antiguas como novedades.",
-  "last_reviewed_on": "2026-11-08",
+  "last_reviewed_on": "2026-11-10",
   "topics": [
     {
       "id": "europa-protestas-costo-vida-2026",
       "scope": "Europa",
       "title": "Movilizaciones juveniles, vivienda, inflación y respuesta institucional",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-07",
-      "last_covered": "2026-11-08",
+      "last_verifiable_development_date": "2026-11-09",
+      "last_covered": "2026-11-10",
       "monitor": [
         "manifestaciones y posible violencia diferenciadas",
         "participación y cifras oficiales/sindicales",
@@ -17,7 +17,8 @@
       ],
       "sources": [
         "https://www.thelocal.fr/20261108/clashes-in-paris-after-new-french-protests",
-        "https://www.aljazeera.com/amp/news/2026/11/8/mapping-how-frances-protest-wave-spread-across-europe"
+        "https://www.aljazeera.com/amp/news/2026/11/8/mapping-how-frances-protest-wave-spread-across-europe",
+        "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/"
       ]
     },
     {
@@ -25,8 +26,8 @@
       "scope": "Haití",
       "title": "Control territorial de pandillas, operaciones de seguridad y postergación electoral",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-07",
-      "last_covered": "2026-11-08",
+      "last_verifiable_development_date": "2026-11-09",
+      "last_covered": "2026-11-10",
       "monitor": [
         "violencia civil y desplazamientos",
         "operaciones fuerzas haitianas/extranjeras",
@@ -35,7 +36,8 @@
       ],
       "sources": [
         "https://apnews.com/article/defa482a4dd9d0304833dac9c797e864",
-        "https://www.unmissions.org/en/dppa/news/haiti-elections-on-hold-as-gangs-adapt-to-security-crackdown-security-council-hears"
+        "https://www.unmissions.org/en/dppa/news/haiti-elections-on-hold-as-gangs-adapt-to-security-crackdown-security-council-hears",
+        "https://elpais.com/america/2026-11-09/las-tropas-de-bukele-en-haiti-operan-sin-reglas-claras-ni-fecha-de-retorno-son-su-propia-fuerza.html"
       ]
     },
     {
@@ -43,8 +45,8 @@
       "scope": "El Salvador/Haití",
       "title": "Intervención militar salvadoreña tras desaparición de técnicos",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-07",
-      "last_covered": "2026-11-08",
+      "last_verifiable_development_date": "2026-11-09",
+      "last_covered": "2026-11-10",
       "monitor": [
         "situación de cuatro técnicos desaparecidos",
         "mando y legalidad de tropas salvadoreñas",
@@ -53,7 +55,8 @@
       ],
       "sources": [
         "https://www.theguardian.com/world/2026/nov/07/el-savador-war-on-gangs-haiti",
-        "https://apnews.com/article/fefbf2e40c1eef1cac6b0281cef961d0"
+        "https://apnews.com/article/fefbf2e40c1eef1cac6b0281cef961d0",
+        "https://elpais.com/america/2026-11-09/las-tropas-de-bukele-en-haiti-operan-sin-reglas-claras-ni-fecha-de-retorno-son-su-propia-fuerza.html"
       ]
     },
     {
@@ -79,15 +82,16 @@
       "scope": "Oriente Medio",
       "title": "Cerco naval de Estados Unidos, navegación y riesgos energéticos",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-07",
-      "last_covered": "2026-11-08",
+      "last_verifiable_development_date": "2026-11-09",
+      "last_covered": "2026-11-10",
       "monitor": [
         "incidentes navales",
         "respuestas oficiales y verificación independiente",
         "energía y rutas marítimas"
       ],
       "sources": [
-        "https://apnews.com/article/bc902d3400cb5d022f8bafd247ef975b"
+        "https://apnews.com/article/bc902d3400cb5d022f8bafd247ef975b",
+        "https://uk.marketscreener.com/news/trump-to-meet-iran-war-mediator-qatar-no-imminent-deal-seen-to-end-the-war-ce785fd3da8cf725"
       ]
     },
     {
@@ -95,15 +99,32 @@
       "scope": "Ucrania",
       "title": "Guerra, infraestructura eléctrica y diplomacia",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-08",
-      "last_covered": "2026-11-08",
+      "last_verifiable_development_date": "2026-11-09",
+      "last_covered": "2026-11-10",
       "monitor": [
         "daños verificados",
         "situación humanitaria",
         "negociaciones"
       ],
       "sources": [
-        "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says"
+        "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says",
+        "https://www.reuters.com/world/zelenskiy-says-ukrainian-battlefield-successes-strengthen-kyivs-position-talks-2026-11-09/"
+      ]
+    },
+    {
+      "id": "cop31-electrificacion",
+      "scope": "Clima global",
+      "title": "COP31: electricidad limpia, financiamiento y adaptación",
+      "status": "seguimiento",
+      "last_verifiable_development_date": "2026-11-09",
+      "last_covered": "2026-11-10",
+      "monitor": [
+        "compromisos de electricidad de bajo carbono",
+        "financiamiento para adaptación",
+        "acuerdos vinculantes frente a declaraciones voluntarias"
+      ],
+      "sources": [
+        "https://www.investing.com/news/commodities-news/cop31-summit-leaders-urge-world-to-move-faster-on-climate-5010799"
       ]
     }
   ]
