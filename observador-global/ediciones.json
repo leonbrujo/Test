@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-13",
+    "title": "Ucrania, Gaza y Microsoft: la fragilidad de los sistemas esenciales",
+    "categories": [
+      "Geopolítica",
+      "Crisis humanitaria",
+      "Tecnología",
+      "Energía",
+      "África",
+      "Asia",
+      "Argentina",
+      "Clima",
+      "Seguridad"
+    ],
+    "summary": "La diplomacia sobre Ucrania abre una posible puerta a la participación europea, aunque Rusia y Ucrania siguen combatiendo. En Gaza, el ataque israelí al Hospital Nasser agrava la escasez de atención médica en medio de un invierno difícil. Y una caída mundial de Microsoft 365 muestra que la seguridad de las sociedades modernas también depende de infraestructuras digitales privadas. Mientras tanto, Ormuz continúa amenazando el comercio energético, Sudán pierde cobertura de ayuda alimentaria y Argentina registra un nuevo aumento mensual de precios. El hilo conductor es la vulnerabilidad de sistemas esenciales: la protección de civiles, el abastecimiento de energía y la continuidad de servicios no pueden darse por garantizados por la mera existencia de acuerdos o tecnologías avanzadas.",
+    "cutoff_at": "2026-11-13T08:00:00-05:00",
+    "revision": 1
+  },
+  {
     "date": "2026-11-12",
     "title": "Ucrania, España y Ormuz: acuerdos limitados y malestar social",
     "categories": [
