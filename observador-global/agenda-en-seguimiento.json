@@ -1,6 +1,6 @@
 {
   "description": "Agenda viva de procesos estructuralmente relevantes. No impone cuotas ni obliga a publicar noticias antiguas como novedades.",
-  "last_reviewed_on": "2026-11-13",
+  "last_reviewed_on": "2026-11-14",
   "topics": [
     {
       "id": "europa-protestas-costo-vida-2026",
@@ -8,7 +8,7 @@
       "title": "Movilizaciones juveniles, vivienda, inflación y respuesta institucional",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-11",
-      "last_covered": "2026-11-12",
+      "last_covered": "2026-11-14",
       "monitor": [
         "manifestaciones y posible violencia diferenciadas",
         "participación y cifras oficiales/sindicales",
@@ -19,7 +19,8 @@
         "https://www.thelocal.fr/20261108/clashes-in-paris-after-new-french-protests",
         "https://www.aljazeera.com/amp/news/2026/11/8/mapping-how-frances-protest-wave-spread-across-europe",
         "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
-        "https://apnews.com/article/68a061a72d7cdf842b7803a816e46ef0"
+        "https://apnews.com/article/68a061a72d7cdf842b7803a816e46ef0",
+        "https://www.theguardian.com/commentisfree/2026/nov/13/housing-protests-portugal-police-politicians-crisis-renters"
       ]
     },
     {
@@ -27,8 +28,8 @@
       "scope": "Haití",
       "title": "Control territorial de pandillas, operaciones de seguridad y postergación electoral",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-11",
-      "last_covered": "2026-11-12",
+      "last_verifiable_development_date": "2026-11-12",
+      "last_covered": "2026-11-14",
       "monitor": [
         "violencia civil y desplazamientos",
         "operaciones fuerzas haitianas/extranjeras",
@@ -39,7 +40,10 @@
         "https://apnews.com/article/defa482a4dd9d0304833dac9c797e864",
         "https://www.unmissions.org/en/dppa/news/haiti-elections-on-hold-as-gangs-adapt-to-security-crackdown-security-council-hears",
         "https://elpais.com/america/2026-11-09/las-tropas-de-bukele-en-haiti-operan-sin-reglas-claras-ni-fecha-de-retorno-son-su-propia-fuerza.html",
-        "https://apnews.com/article/5c8a5e284835778c31c9ff78c140afcd"
+        "https://apnews.com/article/5c8a5e284835778c31c9ff78c140afcd",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/13/el-salvador-deploys-armed-robots-to-fight-gangs-in-haiti",
+        "https://www.latintimes.com/salvadoran-haitian-forces-seize-haiti-stadium-601282",
+        "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/13/caes-robos-armados-ajudam-a-retomar-estadio-de-gangues-no-haiti.ghtm"
       ]
     },
     {
@@ -47,8 +51,8 @@
       "scope": "El Salvador/Haití",
       "title": "Intervención militar salvadoreña tras desaparición de técnicos",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-11",
-      "last_covered": "2026-11-12",
+      "last_verifiable_development_date": "2026-11-12",
+      "last_covered": "2026-11-14",
       "monitor": [
         "situación de cuatro técnicos desaparecidos",
         "mando y legalidad de tropas salvadoreñas",
@@ -59,7 +63,10 @@
         "https://www.theguardian.com/world/2026/nov/07/el-savador-war-on-gangs-haiti",
         "https://apnews.com/article/fefbf2e40c1eef1cac6b0281cef961d0",
         "https://elpais.com/america/2026-11-09/las-tropas-de-bukele-en-haiti-operan-sin-reglas-claras-ni-fecha-de-retorno-son-su-propia-fuerza.html",
-        "https://apnews.com/article/5c8a5e284835778c31c9ff78c140afcd"
+        "https://apnews.com/article/5c8a5e284835778c31c9ff78c140afcd",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/13/el-salvador-deploys-armed-robots-to-fight-gangs-in-haiti",
+        "https://www.latintimes.com/salvadoran-haitian-forces-seize-haiti-stadium-601282",
+        "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/13/caes-robos-armados-ajudam-a-retomar-estadio-de-gangues-no-haiti.ghtm"
       ]
     },
     {
@@ -86,7 +93,7 @@
       "title": "Cerco naval de Estados Unidos, navegación y riesgos energéticos",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-13",
-      "last_covered": "2026-11-13",
+      "last_covered": "2026-11-14",
       "monitor": [
         "incidentes navales",
         "respuestas oficiales y verificación independiente",
@@ -97,7 +104,8 @@
         "https://uk.marketscreener.com/news/trump-to-meet-iran-war-mediator-qatar-no-imminent-deal-seen-to-end-the-war-ce785fd3da8cf725",
         "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met",
         "https://www.reuters.com/world/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-hormuz-2026-11-13/",
-        "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/"
+        "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/",
+        "https://www.reuters.com/world/middle-east/irans-irgc-says-two-tankers-hit-sea-mines-hormuz-2026-11-13/"
       ]
     },
     {
@@ -105,8 +113,8 @@
       "scope": "Ucrania",
       "title": "Guerra, infraestructura eléctrica y diplomacia",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-13",
-      "last_covered": "2026-11-13",
+      "last_verifiable_development_date": "2026-11-14",
+      "last_covered": "2026-11-14",
       "monitor": [
         "daños verificados",
         "situación humanitaria",
@@ -117,7 +125,11 @@
         "https://www.reuters.com/world/zelenskiy-says-ukrainian-battlefield-successes-strengthen-kyivs-position-talks-2026-11-09/",
         "https://www.reuters.com/world/europe/us-envoys-arrive-moscow-latest-round-ukrainian-peace-talks-with-putin-2026-11-12/",
         "https://apnews.com/article/683810203340077f33611fd1d1757b23",
-        "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push"
+        "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push",
+        "https://apnews.com/article/russia-ukraine-war-nato-us-zelenskyy-f9a8629626c087424f05adc85d127780",
+        "https://www.reuters.com/world/europe/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskiy-says-2026-11-14/",
+        "https://www.reuters.com/world/europes-security-cannot-be-part-ukraine-peace-talks-eu-leaders-say-2026-11-13/",
+        "https://www.reuters.com/business/energy/ukraine-races-repair-power-plants-wrecked-by-russian-missiles-before-winter-2026-11-13/"
       ]
     },
     {
@@ -217,6 +229,120 @@
       ],
       "last_covered": "2026-11-13",
       "last_verifiable_development_date": "2026-11-13"
+    },
+    {
+      "id": "apec-seguridad-nuclear",
+      "scope": "Geopolítica",
+      "title": "Trump, Xi y Putin preparan una cumbre nuclear en China",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72",
+        "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+        "https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/"
+      ],
+      "last_covered": "2026-11-14",
+      "last_verifiable_development_date": "2026-11-14"
+    },
+    {
+      "id": "eeuu-control-aereo",
+      "scope": "Infraestructura y tecnología",
+      "title": "Una falla paraliza las salidas aéreas estadounidenses",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/",
+        "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+        "https://www.reuters.com/business/aerospace-defense/us-flight-shutdown-exposes-deepening-air-traffic-network-crisis-2026-11-14/"
+      ],
+      "last_covered": "2026-11-14",
+      "last_verifiable_development_date": "2026-11-14"
+    },
+    {
+      "id": "paraguay-ueno-crisis",
+      "scope": "América Latina · Finanzas",
+      "title": "Paraguay amplía la causa penal por Ueno Bank",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://www.reuters.com/business/finance/paraguay-adds-criminal-association-charge-against-ex-president-pea-2026-11-13/",
+        "https://www.aljazeera.com/news/2026/11/13/paraguays-ex-president-pena-faces-new-charge-over-ueno-bank-collapse"
+      ],
+      "last_covered": "2026-11-14",
+      "last_verifiable_development_date": "2026-11-13"
+    },
+    {
+      "id": "eeuu-china-comercio",
+      "scope": "Economía · Comercio",
+      "title": "Washington y Beijing inauguran su consejo comercial",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/china/us-china-hold-first-board-trade-meeting-2026-11-13/",
+        "https://www.reuters.com/world/china/china-us-discuss-tariffs-farm-trade-first-trade-council-meeting-2026-11-14/"
+      ],
+      "last_covered": "2026-11-14",
+      "last_verifiable_development_date": "2026-11-14"
+    },
+    {
+      "id": "sudan-sur-elecciones",
+      "scope": "África · Democracia",
+      "title": "Sudán del Sur aplaza otra vez sus primeras elecciones",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://apnews.com/article/c62033bb79a606ef8ce7e335cfc8478b",
+        "https://www.thestar.com.my/news/world/2026/11/14/south-sudan-delays-election-to-february-11-2027"
+      ],
+      "last_covered": "2026-11-14",
+      "last_verifiable_development_date": "2026-11-14"
+    },
+    {
+      "id": "sudafrica-coaliciones-municipales",
+      "scope": "África · Política",
+      "title": "Sudáfrica negocia gobiernos locales tras el retroceso del ANC",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://apnews.com/article/south-africa-election-coalition-talks-anc-4dacef78eea159913f5ab6596736bcb2",
+        "https://newsday.co.za/south-africa/38983/anc-releases-official-statement-on-its-approach-to-municipal-coalitions-following-the-2026-local-government-elections/"
+      ],
+      "last_covered": "2026-11-14",
+      "last_verifiable_development_date": "2026-11-14"
+    },
+    {
+      "id": "congo-ebola-respuesta",
+      "scope": "África",
+      "title": "Ébola en República Democrática del Congo",
+      "status": "seguimiento",
+      "last_verifiable_development_date": "2026-11-12",
+      "last_covered": "2026-11-14",
+      "monitor": [
+        "casos y fallecimientos",
+        "seguridad de personal sanitario",
+        "acceso y rastreo"
+      ],
+      "sources": [
+        "https://www.reuters.com/business/healthcare-pharmaceuticals/attacks-health-workers-hamper-congo-ebola-fight-africa-cdc-warns-2026-11-12/"
+      ]
     }
   ]
 }
