@@ -1,6 +1,6 @@
 {
   "description": "Agenda viva de procesos estructuralmente relevantes. No impone cuotas ni obliga a publicar noticias antiguas como novedades.",
-  "last_reviewed_on": "2026-11-14",
+  "last_reviewed_on": "2026-11-15",
   "topics": [
     {
       "id": "europa-protestas-costo-vida-2026",
@@ -8,7 +8,7 @@
       "title": "Movilizaciones juveniles, vivienda, inflación y respuesta institucional",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-11",
-      "last_covered": "2026-11-14",
+      "last_covered": "2026-11-15",
       "monitor": [
         "manifestaciones y posible violencia diferenciadas",
         "participación y cifras oficiales/sindicales",
@@ -20,7 +20,8 @@
         "https://www.aljazeera.com/amp/news/2026/11/8/mapping-how-frances-protest-wave-spread-across-europe",
         "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
         "https://apnews.com/article/68a061a72d7cdf842b7803a816e46ef0",
-        "https://www.theguardian.com/commentisfree/2026/nov/13/housing-protests-portugal-police-politicians-crisis-renters"
+        "https://www.theguardian.com/commentisfree/2026/nov/13/housing-protests-portugal-police-politicians-crisis-renters",
+        "https://www.reuters.com/world/europe/riots-france-how-anti-government-protests-spiralled-out-control-2026-11-14/"
       ]
     },
     {
@@ -29,7 +30,7 @@
       "title": "Control territorial de pandillas, operaciones de seguridad y postergación electoral",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-12",
-      "last_covered": "2026-11-14",
+      "last_covered": "2026-11-15",
       "monitor": [
         "violencia civil y desplazamientos",
         "operaciones fuerzas haitianas/extranjeras",
@@ -52,7 +53,7 @@
       "title": "Intervención militar salvadoreña tras desaparición de técnicos",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-12",
-      "last_covered": "2026-11-14",
+      "last_covered": "2026-11-15",
       "monitor": [
         "situación de cuatro técnicos desaparecidos",
         "mando y legalidad de tropas salvadoreñas",
@@ -137,8 +138,8 @@
       "scope": "Clima global",
       "title": "COP31: electricidad limpia, financiamiento y adaptación",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-13",
-      "last_covered": "2026-11-13",
+      "last_verifiable_development_date": "2026-11-14",
+      "last_covered": "2026-11-15",
       "monitor": [
         "compromisos de electricidad de bajo carbono",
         "financiamiento para adaptación",
@@ -147,7 +148,9 @@
       "sources": [
         "https://www.investing.com/news/commodities-news/cop31-summit-leaders-urge-world-to-move-faster-on-climate-5010799",
         "https://www.reuters.com/sustainability/cop/cop31-host-turkey-aiib-strike-record-16-billion-climate-policy-deal-2026-11-12/",
-        "https://www.reuters.com/sustainability/cop/small-islands-aim-use-remittances-fund-climate-resilience-2026-11-13/"
+        "https://www.reuters.com/sustainability/cop/small-islands-aim-use-remittances-fund-climate-resilience-2026-11-13/",
+        "https://www.lemonde.fr/planete/article/2026/11/14/a-antalya-en-marge-de-la-cop-des-milliers-de-manifestants-en-colere-contre-les-atteintes-a-l-environnement-nous-ne-croyons-plus-en-ceux-qui-nous-dirigent_6810478_3244.html",
+        "https://amp.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501"
       ]
     },
     {
@@ -162,10 +165,11 @@
       "sources": [
         "https://apnews.com/article/50b547b5a82388b6b415aee4d776fbfb",
         "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
-        "https://www.timesofisrael.com/idf-targets-top-hamas-commander-in-strike-on-south-gaza-hospital-6-said-killed/"
+        "https://www.timesofisrael.com/idf-targets-top-hamas-commander-in-strike-on-south-gaza-hospital-6-said-killed/",
+        "https://apnews.com/article/ade76bebaf22135168aac6eb3016bc19"
       ],
-      "last_covered": "2026-11-13",
-      "last_verifiable_development_date": "2026-11-12"
+      "last_covered": "2026-11-15",
+      "last_verifiable_development_date": "2026-11-14"
     },
     {
       "id": "sudan-hambre-financiacion",
@@ -244,7 +248,7 @@
         "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
         "https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/"
       ],
-      "last_covered": "2026-11-14",
+      "last_covered": "2026-11-15",
       "last_verifiable_development_date": "2026-11-14"
     },
     {
@@ -259,9 +263,11 @@
       "sources": [
         "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/",
         "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-        "https://www.reuters.com/business/aerospace-defense/us-flight-shutdown-exposes-deepening-air-traffic-network-crisis-2026-11-14/"
+        "https://www.reuters.com/business/aerospace-defense/us-flight-shutdown-exposes-deepening-air-traffic-network-crisis-2026-11-14/",
+        "https://www.reuters.com/business/aerospace-defense/thousands-us-flights-canceled-delayed-air-travel-system-recovers-shutdown-2026-11-14/",
+        "https://abcnews.com/US/timeline-faa-nationwide-ground-stop-developed/story?id=138141388"
       ],
-      "last_covered": "2026-11-14",
+      "last_covered": "2026-11-15",
       "last_verifiable_development_date": "2026-11-14"
     },
     {
@@ -343,6 +349,104 @@
       "sources": [
         "https://www.reuters.com/business/healthcare-pharmaceuticals/attacks-health-workers-hamper-congo-ebola-fight-africa-cdc-warns-2026-11-12/"
       ]
+    },
+    {
+      "id": "yemen-bab-el-mandeb",
+      "scope": "Geopolítica · Energía",
+      "title": "Los hutíes ganan terreno junto a la entrada del mar Rojo",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/",
+        "https://www.thenationalnews.com/news/mena/2026/11/15/southern-yemeni-forces-withdraw-from-area-near-bab-al-mandab/"
+      ],
+      "last_covered": "2026-11-15",
+      "last_verifiable_development_date": "2026-11-15"
+    },
+    {
+      "id": "asean-myanmar-seguridad",
+      "scope": "Asia · Diplomacia",
+      "title": "Manila abre una semana diplomática decisiva",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://apnews.com/article/ca9bb47cc109a1ca9e57be787b137095",
+        "https://www.reuters.com/world/asia-pacific/asean-continue-constructive-principled-engagement-with-myanmar-blocs-chair-2026-11-15/",
+        "https://www.aljazeera.com/news/2026/11/15/asean-summit-whos-attending-and-whats-at-stake"
+      ],
+      "last_covered": "2026-11-15",
+      "last_verifiable_development_date": "2026-11-15"
+    },
+    {
+      "id": "mar-negro-navegacion",
+      "scope": "Europa · Seguridad",
+      "title": "Drones alcanzan mercantes cerca de Rumania",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://www.reuters.com/business/aerospace-defense/three-ships-struck-by-drones-black-sea-near-romanian-shipping-canal-pm-says-2026-11-15/",
+        "https://www.aa.com.tr/tr/dunya/romanya-karadeniz-kiyisi-yakinlarinda-3-gemiye-iha-ile-saldiri-yapildi/4125699",
+        "https://kyivindependent.com/three-commercial-ships-struck-by-drones-near-romanias-black-sea-coast-over-two-days/"
+      ],
+      "last_covered": "2026-11-15",
+      "last_verifiable_development_date": "2026-11-14"
+    },
+    {
+      "id": "guatemala-estado-sitio",
+      "scope": "América Latina · Seguridad",
+      "title": "Guatemala decreta estado de sitio en dos departamentos",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://lahora.gt/nacionales/jcortega/2026/11/14/gobierno-decreta-estado-de-sitio-en-zacapa-e-izabal/",
+        "https://www.reuters.com/world/americas/guatemala-decrees-state-emergency-two-departments-after-lawmaker-killed-attack-2026-11-15/"
+      ],
+      "last_covered": "2026-11-15",
+      "last_verifiable_development_date": "2026-11-14"
+    },
+    {
+      "id": "canarias-migracion-atlantica",
+      "scope": "Europa · Migración",
+      "title": "Canarias registra 1.488 rescates en un día",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://cadenaser.com/canarias/2026/11/15/emergencia-migratoria-en-el-hierro-angel-victor-torres-visita-hoy-la-isla-tras-el-record-historico-de-1488-migrantes-rescatados-en-un-dia-radio-club-tenerife/?outputType=amp",
+        "https://www.reuters.com/world/africa/nearly-1500-migrants-arrive-canary-islands-one-day-2026-11-15/"
+      ],
+      "last_covered": "2026-11-15",
+      "last_verifiable_development_date": "2026-11-14"
+    },
+    {
+      "id": "cabo-verde-elecciones",
+      "scope": "África · Democracia",
+      "title": "Cabo Verde vota con la emigración en el centro",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://www.timesunion.com/news/article/cape-verde-could-elect-first-woman-president-22531625.php",
+        "https://www.aljazeera.com/news/2026/11/15/polls-open-in-cape-verde-in-race-with-first-female-presidential-candidate"
+      ],
+      "last_covered": "2026-11-15",
+      "last_verifiable_development_date": "2026-11-15"
     }
   ]
 }
