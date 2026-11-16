@@ -1,6 +1,6 @@
 {
   "description": "Agenda viva de procesos estructuralmente relevantes. No impone cuotas ni obliga a publicar noticias antiguas como novedades.",
-  "last_reviewed_on": "2026-11-15",
+  "last_reviewed_on": "2026-11-16",
   "topics": [
     {
       "id": "europa-protestas-costo-vida-2026",
@@ -29,8 +29,8 @@
       "scope": "Haití",
       "title": "Control territorial de pandillas, operaciones de seguridad y postergación electoral",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-12",
-      "last_covered": "2026-11-15",
+      "last_verifiable_development_date": "2026-11-15",
+      "last_covered": "2026-11-16",
       "monitor": [
         "violencia civil y desplazamientos",
         "operaciones fuerzas haitianas/extranjeras",
@@ -44,7 +44,10 @@
         "https://apnews.com/article/5c8a5e284835778c31c9ff78c140afcd",
         "https://www.aljazeera.com/video/newsfeed/2026/11/13/el-salvador-deploys-armed-robots-to-fight-gangs-in-haiti",
         "https://www.latintimes.com/salvadoran-haitian-forces-seize-haiti-stadium-601282",
-        "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/13/caes-robos-armados-ajudam-a-retomar-estadio-de-gangues-no-haiti.ghtm"
+        "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/13/caes-robos-armados-ajudam-a-retomar-estadio-de-gangues-no-haiti.ghtm",
+        "https://www.reuters.com/world/americas/martine-moise-widow-haitis-slain-president-registers-presidential-candidate-2026-11-16/",
+        "https://apnews.com/article/7fab49c6993714b99f496d0241d4180e",
+        "https://www.africanews.com/2026/11/15/haitians-welcome-deployment-of-salvadoran-troops-as-gang-violence-rages-on/"
       ]
     },
     {
@@ -53,7 +56,7 @@
       "title": "Intervención militar salvadoreña tras desaparición de técnicos",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-12",
-      "last_covered": "2026-11-15",
+      "last_covered": "2026-11-16",
       "monitor": [
         "situación de cuatro técnicos desaparecidos",
         "mando y legalidad de tropas salvadoreñas",
@@ -67,7 +70,8 @@
         "https://apnews.com/article/5c8a5e284835778c31c9ff78c140afcd",
         "https://www.aljazeera.com/video/newsfeed/2026/11/13/el-salvador-deploys-armed-robots-to-fight-gangs-in-haiti",
         "https://www.latintimes.com/salvadoran-haitian-forces-seize-haiti-stadium-601282",
-        "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/13/caes-robos-armados-ajudam-a-retomar-estadio-de-gangues-no-haiti.ghtm"
+        "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/13/caes-robos-armados-ajudam-a-retomar-estadio-de-gangues-no-haiti.ghtm",
+        "https://www.africanews.com/2026/11/15/haitians-welcome-deployment-of-salvadoran-troops-as-gang-violence-rages-on/"
       ]
     },
     {
@@ -93,8 +97,8 @@
       "scope": "Oriente Medio",
       "title": "Cerco naval de Estados Unidos, navegación y riesgos energéticos",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-13",
-      "last_covered": "2026-11-14",
+      "last_verifiable_development_date": "2026-11-16",
+      "last_covered": "2026-11-16",
       "monitor": [
         "incidentes navales",
         "respuestas oficiales y verificación independiente",
@@ -106,7 +110,10 @@
         "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met",
         "https://www.reuters.com/world/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-hormuz-2026-11-13/",
         "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/",
-        "https://www.reuters.com/world/middle-east/irans-irgc-says-two-tankers-hit-sea-mines-hormuz-2026-11-13/"
+        "https://www.reuters.com/world/middle-east/irans-irgc-says-two-tankers-hit-sea-mines-hormuz-2026-11-13/",
+        "https://www.reuters.com/world/middle-east/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain-2026-11-15/",
+        "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+        "https://www.aa.com.tr/en/middle-east/iran-says-3-oil-tankers-hit-mines-catch-fire-in-strait-of-hormuz/4126136"
       ]
     },
     {
@@ -246,10 +253,12 @@
       "sources": [
         "https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72",
         "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
-        "https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/"
+        "https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/",
+        "https://www.reuters.com/world/china/un-ready-support-any-denuclearisation-effort-us-china-russia-talks-2026-11-16/",
+        "https://apnews.com/article/ffc5e5a2d384f00960034ec10087502e"
       ],
-      "last_covered": "2026-11-15",
-      "last_verifiable_development_date": "2026-11-14"
+      "last_covered": "2026-11-16",
+      "last_verifiable_development_date": "2026-11-16"
     },
     {
       "id": "eeuu-control-aereo",
@@ -265,10 +274,11 @@
         "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
         "https://www.reuters.com/business/aerospace-defense/us-flight-shutdown-exposes-deepening-air-traffic-network-crisis-2026-11-14/",
         "https://www.reuters.com/business/aerospace-defense/thousands-us-flights-canceled-delayed-air-travel-system-recovers-shutdown-2026-11-14/",
-        "https://abcnews.com/US/timeline-faa-nationwide-ground-stop-developed/story?id=138141388"
+        "https://abcnews.com/US/timeline-faa-nationwide-ground-stop-developed/story?id=138141388",
+        "https://www.reuters.com/world/us/us-air-travel-disruptions-continue-into-third-day-2026-11-15/"
       ],
-      "last_covered": "2026-11-15",
-      "last_verifiable_development_date": "2026-11-14"
+      "last_covered": "2026-11-16",
+      "last_verifiable_development_date": "2026-11-15"
     },
     {
       "id": "paraguay-ueno-crisis",
@@ -443,10 +453,58 @@
       ],
       "sources": [
         "https://www.timesunion.com/news/article/cape-verde-could-elect-first-woman-president-22531625.php",
-        "https://www.aljazeera.com/news/2026/11/15/polls-open-in-cape-verde-in-race-with-first-female-presidential-candidate"
+        "https://www.aljazeera.com/news/2026/11/15/polls-open-in-cape-verde-in-race-with-first-female-presidential-candidate",
+        "https://www.reuters.com/world/cape-verde-president-neves-wins-second-term-provisional-election-results-show-2026-11-16/",
+        "https://apnews.com/article/802ba8d137d2cb30f96eca659a4167f6"
       ],
-      "last_covered": "2026-11-15",
+      "last_covered": "2026-11-16",
       "last_verifiable_development_date": "2026-11-15"
+    },
+    {
+      "id": "europa-medios-publicos-chequia",
+      "scope": "Europa · Democracia",
+      "title": "Praga se moviliza por la independencia de los medios públicos",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://apnews.com/article/a48f46db181edaa14a156be89862f5e3",
+        "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom"
+      ],
+      "last_covered": "2026-11-16",
+      "last_verifiable_development_date": "2026-11-15"
+    },
+    {
+      "id": "cuba-sanciones-energia",
+      "scope": "América Latina · Economía",
+      "title": "Una maratón refleja la crisis energética cubana",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://apnews.com/article/79987ab0128128768e0d06a1d033bab2"
+      ],
+      "last_covered": "2026-11-16",
+      "last_verifiable_development_date": "2026-11-15"
+    },
+    {
+      "id": "armas-autonomas-regulacion",
+      "scope": "Tecnología · Seguridad",
+      "title": "Las potencias discrepan sobre las armas autónomas",
+      "status": "seguimiento",
+      "monitor": [
+        "novedades verificables",
+        "consecuencias y decisiones"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/us-russia-oppose-talks-limiting-autonomous-weapons-2026-11-16/"
+      ],
+      "last_covered": "2026-11-16",
+      "last_verifiable_development_date": "2026-11-16"
     }
   ]
 }
