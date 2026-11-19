@@ -52,7 +52,7 @@ window.addEventListener('scroll',place,{passive:true});
 /* Criterio editorial: marcar la primera mención de las entidades realmente
    necesarias para entender cada bloque, sin dejar fuera a las del resumen. */
 const seen=new Map();
-const targets=document.querySelectorAll('main .lead p, main .feature h3, main .feature .story-paragraph, main .brief h3, main .brief p, main .analysis p, main .watch-list strong, main .watch-list p, main .river article strong, main .river article p');
+const targets=document.querySelectorAll('main section p:not(.meta):not(.sources), main section h3, main section strong, main .lead p, main .feature h3, main .feature .story-paragraph, main .brief h3, main .brief p, main .analysis p, main .watch-list strong, main .watch-list p, main .river article strong, main .river article p');
 const categoryWeight={'PERSONA':5,'EMPRESA':5,'ACTOR ARMADO':5,'INSTITUCIÓN':4,'ORGANISMO':4,'CONCEPTO':4,'CONFERENCIA':4,'LUGAR':3,'REGIÓN':3,'PAÍS':2,'JUGADOR':2};
 const priorityOf=i=>{
  const e=entries[i];
@@ -62,10 +62,10 @@ const priorityOf=i=>{
 let total=0;
 for(const block of targets){
  if(total>=100)break;
- const section=block.closest('article, .lead, .analysis, .watch-list, .river')||block;
+ const section=block.closest('article, section, .lead, .analysis, .watch-list, .river')||block;
  if(!seen.has(section))seen.set(section,new Set());
  const already=seen.get(section);
- const isLead=!!block.closest('.lead');
+ const isLead=!!block.closest('.lead') || (block.closest('main section')===document.querySelector('main section'));
  /* El panorama editorial debe explicar los actores principales: no limitarlo a 3. */
  const maxBlock=isLead?10:block.matches('h3')?3:block.classList.contains('story-paragraph')?4:3;
  const walker=document.createTreeWalker(block,NodeFilter.SHOW_TEXT,{
@@ -125,7 +125,7 @@ for(const block of targets){
 }
 
 if(total){
- const first=document.querySelector('main .lead');
+ const first=document.querySelector('main .lead, main section');
  if(first){const tip=document.createElement('div');tip.className='eog-context-hint';const dot=document.createElement('span');dot.className='eog-mini-dot';dot.setAttribute('aria-hidden','true');tip.append(dot,document.createTextNode('Tocá las palabras subrayadas para ver su contexto'));first.append(tip)}
 }
 })();
