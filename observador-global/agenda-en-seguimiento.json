@@ -1,6 +1,6 @@
 {
   "description": "Agenda viva de procesos estructuralmente relevantes. No impone cuotas ni obliga a publicar noticias antiguas como novedades.",
-  "last_reviewed_on": "2026-11-18",
+  "last_reviewed_on": "2026-11-19",
   "topics": [
     {
       "id": "europa-protestas-costo-vida-2026",
@@ -99,8 +99,8 @@
       "scope": "Oriente Medio",
       "title": "Cerco naval de Estados Unidos, navegación y riesgos energéticos",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-18",
-      "last_covered": "2026-11-18",
+      "last_verifiable_development_date": "2026-11-19",
+      "last_covered": "2026-11-19",
       "monitor": [
         "incidentes navales",
         "respuestas oficiales y verificación independiente",
@@ -150,8 +150,8 @@
       "scope": "Clima global",
       "title": "COP31: electricidad limpia, financiamiento y adaptación",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-17",
-      "last_covered": "2026-11-18",
+      "last_verifiable_development_date": "2026-11-19",
+      "last_covered": "2026-11-19",
       "monitor": [
         "compromisos de electricidad de bajo carbono",
         "financiamiento para adaptación",
@@ -263,8 +263,8 @@
         "https://www.reuters.com/world/china/un-ready-support-any-denuclearisation-effort-us-china-russia-talks-2026-11-16/",
         "https://apnews.com/article/ffc5e5a2d384f00960034ec10087502e"
       ],
-      "last_covered": "2026-11-18",
-      "last_verifiable_development_date": "2026-11-18"
+      "last_covered": "2026-11-19",
+      "last_verifiable_development_date": "2026-11-19"
     },
     {
       "id": "eeuu-control-aereo",
@@ -511,6 +511,131 @@
       ],
       "last_covered": "2026-11-16",
       "last_verifiable_development_date": "2026-11-16"
+    },
+    {
+      "id": "myanmar-rohingya-genocidio",
+      "scope": "Justicia internacional",
+      "title": "La Corte Internacional de Justicia declara que Myanmar cometió genocidio contra los rohinyás",
+      "status": "seguimiento",
+      "last_verifiable_development_date": "2026-11-19",
+      "last_covered": "2026-11-19",
+      "monitor": [
+        "nuevos acontecimientos verificables",
+        "respuesta institucional y consecuencias"
+      ],
+      "sources": [
+        "https://apnews.com/article/30df77b12bf3f911f1100e77ebe3973a",
+        "https://www.reuters.com/world/asia-pacific/top-un-court-rule-alleged-genocide-myanmars-rohingya-2026-11-18/"
+      ]
+    },
+    {
+      "id": "apec-shenzhen-trilateral",
+      "scope": "Geopolítica",
+      "title": "Trump, Xi y Putin concluyen una reunión histórica, pero sin acuerdo nuclear",
+      "status": "seguimiento",
+      "last_verifiable_development_date": "2026-11-19",
+      "last_covered": "2026-11-19",
+      "monitor": [
+        "nuevos acontecimientos verificables",
+        "respuesta institucional y consecuencias"
+      ],
+      "sources": [
+        "https://apnews.com/article/a04dc76ed8e786b087e2c1ea9598783a",
+        "https://www.reuters.com/world/china/trumps-historic-meeting-with-xi-putin-headlines-asia-trip-2026-11-18/"
+      ]
+    },
+    {
+      "id": "yemen-ataques-riyadh",
+      "scope": "Seguridad y energía",
+      "title": "Un ataque daña la sede del fondo soberano saudita en Riad",
+      "status": "seguimiento",
+      "last_verifiable_development_date": "2026-11-19",
+      "last_covered": "2026-11-19",
+      "monitor": [
+        "nuevos acontecimientos verificables",
+        "respuesta institucional y consecuencias"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/middle-east/houthi-missile-threat-towards-riyadh-causes-damage-saudi-led-coalition-says-2026-11-19/",
+        "https://www.ft.com/content/05ed47a5-7cc1-402f-ad0d-826ba09a05c8"
+      ]
+    },
+    {
+      "id": "cop31-borrador-combustibles",
+      "scope": "Clima",
+      "title": "El nuevo borrador de COP31 elimina las referencias a combustibles fósiles",
+      "status": "seguimiento",
+      "last_verifiable_development_date": "2026-11-19",
+      "last_covered": "2026-11-19",
+      "monitor": [
+        "nuevos acontecimientos verificables",
+        "respuesta institucional y consecuencias"
+      ],
+      "sources": [
+        "https://www.reuters.com/sustainability/cop/cop31-negotiators-publish-revised-deal-text-with-no-mention-fossil-fuels-2026-11-19/",
+        "https://www.theguardian.com/environment/2026/nov/16/cop31-draft-text-draw-out-parties-find-agreement-president-talks-says"
+      ]
+    },
+    {
+      "id": "anthropic-salida-bolsa",
+      "scope": "Tecnología y mercados",
+      "title": "Anthropic fija su salida a bolsa en 83 dólares por acción",
+      "status": "seguimiento",
+      "last_verifiable_development_date": "2026-11-19",
+      "last_covered": "2026-11-19",
+      "monitor": [
+        "nuevos acontecimientos verificables",
+        "respuesta institucional y consecuencias"
+      ],
+      "sources": [
+        "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
+        "https://apnews.com/article/b6a74b8949021207dc162fcc876c4649"
+      ]
+    },
+    {
+      "id": "iea-energia-seguridad",
+      "scope": "Energía y economía",
+      "title": "La AIE proyecta menos consumo de petróleo si los países aceleran la electrificación",
+      "status": "seguimiento",
+      "last_verifiable_development_date": "2026-11-19",
+      "last_covered": "2026-11-19",
+      "monitor": [
+        "nuevos acontecimientos verificables",
+        "respuesta institucional y consecuencias"
+      ],
+      "sources": [
+        "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/"
+      ]
+    },
+    {
+      "id": "taiwan-relacion-eeuu-china",
+      "scope": "Asia y diplomacia",
+      "title": "Xi vuelve a colocar a Taiwán en el centro de la relación con Washington",
+      "status": "seguimiento",
+      "last_verifiable_development_date": "2026-11-19",
+      "last_covered": "2026-11-19",
+      "monitor": [
+        "nuevos acontecimientos verificables",
+        "respuesta institucional y consecuencias"
+      ],
+      "sources": [
+        "https://www.reuters.com/world/china/chinas-xi-says-us-should-do-right-thing-taiwan-avoid-setbacks-relations-2026-11-19/"
+      ]
+    },
+    {
+      "id": "apec-inteligencia-artificial",
+      "scope": "Comercio y tecnología",
+      "title": "APEC discute inteligencia artificial entre apertura comercial y controles de chips",
+      "status": "seguimiento",
+      "last_verifiable_development_date": "2026-11-19",
+      "last_covered": "2026-11-19",
+      "monitor": [
+        "nuevos acontecimientos verificables",
+        "respuesta institucional y consecuencias"
+      ],
+      "sources": [
+        "https://apnews.com/article/bb61e50e4b0bb0b975b0695dc4f7b64a"
+      ]
     }
   ]
 }
