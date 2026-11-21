@@ -1,6 +1,6 @@
 {
   "description": "Agenda viva de procesos estructuralmente relevantes. No impone cuotas ni obliga a publicar noticias antiguas como novedades.",
-  "last_reviewed_on": "2026-11-20",
+  "last_reviewed_on": "2026-11-21",
   "topics": [
     {
       "id": "europa-protestas-costo-vida-2026",
@@ -29,8 +29,8 @@
       "scope": "Haití",
       "title": "Control territorial de pandillas, operaciones de seguridad y postergación electoral",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-19",
-      "last_covered": "2026-11-20",
+      "last_verifiable_development_date": "2026-11-20",
+      "last_covered": "2026-11-21",
       "monitor": [
         "violencia civil y desplazamientos",
         "operaciones fuerzas haitianas/extranjeras",
@@ -100,7 +100,7 @@
       "title": "Cerco naval de Estados Unidos, navegación y riesgos energéticos",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-20",
-      "last_covered": "2026-11-20",
+      "last_covered": "2026-11-21",
       "monitor": [
         "incidentes navales",
         "respuestas oficiales y verificación independiente",
@@ -151,7 +151,7 @@
       "title": "COP31: electricidad limpia, financiamiento y adaptación",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-20",
-      "last_covered": "2026-11-20",
+      "last_covered": "2026-11-21",
       "monitor": [
         "compromisos de electricidad de bajo carbono",
         "financiamiento para adaptación",
@@ -379,8 +379,8 @@
         "https://www.reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/",
         "https://www.thenationalnews.com/news/mena/2026/11/15/southern-yemeni-forces-withdraw-from-area-near-bab-al-mandab/"
       ],
-      "last_covered": "2026-11-15",
-      "last_verifiable_development_date": "2026-11-15"
+      "last_covered": "2026-11-21",
+      "last_verifiable_development_date": "2026-11-21"
     },
     {
       "id": "asean-myanmar-seguridad",
@@ -549,8 +549,8 @@
       "scope": "Seguridad y energía",
       "title": "Un ataque daña la sede del fondo soberano saudita en Riad",
       "status": "seguimiento",
-      "last_verifiable_development_date": "2026-11-19",
-      "last_covered": "2026-11-19",
+      "last_verifiable_development_date": "2026-11-21",
+      "last_covered": "2026-11-21",
       "monitor": [
         "nuevos acontecimientos verificables",
         "respuesta institucional y consecuencias"
@@ -566,7 +566,7 @@
       "title": "El nuevo borrador de COP31 elimina las referencias a combustibles fósiles",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-19",
-      "last_covered": "2026-11-19",
+      "last_covered": "2026-11-21",
       "monitor": [
         "nuevos acontecimientos verificables",
         "respuesta institucional y consecuencias"
