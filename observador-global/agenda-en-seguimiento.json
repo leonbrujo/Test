@@ -1,6 +1,6 @@
 {
   "description": "Agenda viva de procesos estructuralmente relevantes. No impone cuotas ni obliga a publicar noticias antiguas como novedades.",
-  "last_reviewed_on": "2026-11-21",
+  "last_reviewed_on": "2026-11-22",
   "topics": [
     {
       "id": "europa-protestas-costo-vida-2026",
@@ -30,7 +30,7 @@
       "title": "Control territorial de pandillas, operaciones de seguridad y postergación electoral",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-20",
-      "last_covered": "2026-11-21",
+      "last_covered": "2026-11-22",
       "monitor": [
         "violencia civil y desplazamientos",
         "operaciones fuerzas haitianas/extranjeras",
@@ -49,7 +49,8 @@
         "https://apnews.com/article/7fab49c6993714b99f496d0241d4180e",
         "https://www.africanews.com/2026/11/15/haitians-welcome-deployment-of-salvadoran-troops-as-gang-violence-rages-on/",
         "https://www.reuters.com/world/americas/haiti-praises-salvadoran-troop-deployment-ahead-bukele-talks-2026-11-16/",
-        "https://elpais.com/america/2026-11-16/el-caos-entre-las-cinco-fuerzas-armadas-que-operan-en-haiti-eleva-el-riesgo-para-la-poblacion-civil-es-una-orquesta-sin-director.html"
+        "https://elpais.com/america/2026-11-16/el-caos-entre-las-cinco-fuerzas-armadas-que-operan-en-haiti-eleva-el-riesgo-para-la-poblacion-civil-es-una-orquesta-sin-director.html",
+        "https://apnews.com/article/c3192c1276fd235b727666a05062db00"
       ]
     },
     {
@@ -518,14 +519,15 @@
       "title": "La Corte Internacional de Justicia declara que Myanmar cometió genocidio contra los rohinyás",
       "status": "seguimiento",
       "last_verifiable_development_date": "2026-11-19",
-      "last_covered": "2026-11-19",
+      "last_covered": "2026-11-22",
       "monitor": [
         "nuevos acontecimientos verificables",
         "respuesta institucional y consecuencias"
       ],
       "sources": [
         "https://apnews.com/article/30df77b12bf3f911f1100e77ebe3973a",
-        "https://www.reuters.com/world/asia-pacific/top-un-court-rule-alleged-genocide-myanmars-rohingya-2026-11-18/"
+        "https://www.reuters.com/world/asia-pacific/top-un-court-rule-alleged-genocide-myanmars-rohingya-2026-11-18/",
+        "https://www.theguardian.com/world/2026/nov/20/friday-briefing-what-are-the-implications-of-the-icjs-landmark-genocide-ruling"
       ]
     },
     {
