@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-11-22",
+    "title": "COP31 sin acuerdo, un buque ruso incendiado y nuevos ataques en Bahréin",
+    "categories": [
+      "Clima",
+      "Seguridad europea",
+      "Oriente Medio",
+      "Economía",
+      "Diplomacia",
+      "América Latina",
+      "Justicia internacional",
+      "Comercio"
+    ],
+    "summary": "La COP31 terminó su negociación principal sin el consenso que buscaba: varios países rechazaron un texto que evitaba compromisos explícitos sobre combustibles fósiles. En el mar Báltico, el carguero ruso Sparta II siguió ardiendo en aguas finlandesas después de un ataque con drones cuya autoría no está confirmada de manera independiente. Y Bahréin denunció nuevos ataques iraníes que alcanzaron una instalación industrial, mientras Teherán afirmó haber atacado posiciones militares estadounidenses. Estos tres procesos muestran que la diplomacia climática y de seguridad puede continuar sin producir todavía resultados compartidos. Qatar mantiene conversaciones con Irán, las bolsas del Golfo reaccionan a los riesgos y Haití y Myanmar exigen seguimiento, aunque sus últimos hitos sustantivos no hayan ocurrido hoy.",
+    "cutoff_at": "2026-11-22T08:00:00-05:00",
+    "revision": 1
+  },
+  {
     "date": "2026-11-21",
     "title": "COP31, Riad y Haití: decisiones pendientes y riesgos concretos",
     "categories": [
