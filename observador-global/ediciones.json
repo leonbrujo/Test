@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-25",
+    "title": "Los límites del poder",
+    "categories": [
+      "Diplomacia",
+      "Tecnología",
+      "Seguridad"
+    ],
+    "summary": "La diplomacia sobre Ucrania, el juicio de Huawei y la presencia rusa en Malí ilustran tres dimensiones de la influencia internacional. Esta edición abreviada distingue las investigaciones periodísticas de los hechos judiciales y explicita los límites de corroboración.",
+    "cutoff_at": "2026-11-25T08:00:00-05:00",
+    "revision": 1
+  },
+  {
     "date": "2026-11-22",
     "title": "COP31 sin acuerdo, un buque ruso incendiado y nuevos ataques en Bahréin",
     "categories": [
