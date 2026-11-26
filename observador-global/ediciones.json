@@ -14,8 +14,17 @@
     ],
     "summary": "La seguridad energética, los aranceles estadounidenses y la demanda de semiconductores muestran cómo las dependencias estratégicas condicionan las decisiones económicas. Australia y las Islas Salomón, el ébola en Congo y la justicia internacional completan la agenda.",
     "cutoff_at": "2026-11-26T08:04:00-05:00",
-    "revision": 1,
-    "verification": "provisional"
+    "revision": 2,
+    "verification": "provisional",
+    "updated_on": "2026-11-26",
+    "revision_url": "https://leonbrujo.github.io/Test/ediciones/2026-11-26/revision-2.html",
+    "corrections": [
+      {
+        "date": "2026-11-26",
+        "description": "Actualización visual; contenido provisional sin cambios",
+        "original_url": "https://leonbrujo.github.io/Test/ediciones/2026-11-26/revision-1.html"
+      }
+    ]
   },
   {
     "date": "2026-11-25",
