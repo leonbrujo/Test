@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-26",
+    "title": "Las arterias del poder mundial",
+    "categories": [
+      "Energía",
+      "Comercio",
+      "Tecnología",
+      "Geopolítica",
+      "Salud",
+      "Justicia",
+      "Seguridad",
+      "Deportes"
+    ],
+    "summary": "La seguridad energética, los aranceles estadounidenses y la demanda de semiconductores muestran cómo las dependencias estratégicas condicionan las decisiones económicas. Australia y las Islas Salomón, el ébola en Congo y la justicia internacional completan la agenda.",
+    "cutoff_at": "2026-11-26T08:04:00-05:00",
+    "revision": 1,
+    "verification": "provisional"
+  },
+  {
     "date": "2026-11-25",
     "title": "Los límites del poder",
     "categories": [
