@@ -1,0 +1,39 @@
+name: Editorial pipeline
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        options: [collect, publish]
+        required: true
+      date:
+        description: Edition date (YYYY-MM-DD; blank uses New York today)
+        required: false
+  push:
+    branches: [editorial-pipeline]
+    paths: ['editorial/**', '.github/workflows/editorial-pipeline.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m py_compile editorial/pipeline.py
+      - run: python -m unittest discover -s editorial -p 'test_*.py'
+      - if: github.event_name == 'workflow_dispatch'
+        env:
+          MODE: ${{ inputs.mode }}
+          DATE: ${{ inputs.date }}
+        run: |
+          if [ -n "$DATE" ]; then python editorial/pipeline.py "$MODE" --date "$DATE"; else python editorial/pipeline.py "$MODE"; fi
+      - if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-dry-run
+          path: |
+            editorial/research/
+            observador-global/
