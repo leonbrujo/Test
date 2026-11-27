@@ -24,6 +24,12 @@ jobs:
           python-version: '3.12'
       - run: python -m py_compile editorial/pipeline.py
       - run: python -m unittest discover -s editorial -p 'test_*.py'
+      - name: Install browser for isolated visual test
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Browser smoke test
+        run: python editorial/browser_test.py
       - if: github.event_name == 'push'
         run: |
           python editorial/pipeline.py collect
@@ -46,5 +52,6 @@ jobs:
         with:
           name: editorial-dry-run
           path: |
+            editorial/browser-results/
             editorial/research/
             observador-global/
