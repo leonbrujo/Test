@@ -6,10 +6,12 @@
     "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
   ],
   "local": [
-    "https://www.wmata.com/about/news/rss.xml",
-    "https://wtop.com/feed/"
+    "https://wtop.com/feed/",
+    "https://www.popville.com/feed/"
   ],
   "sports": [
-    "https://www.tycsports.com/rss/river-plate.xml"
+    "https://www.riverplate.com/feed/",
+    "https://www.ole.com.ar/rss/river-plate/",
+    "https://news.google.com/rss/search?q=River+Plate+when:1d&hl=es-419&gl=AR&ceid=AR:es-419"
   ]
 }
