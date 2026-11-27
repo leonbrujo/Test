@@ -1,4 +1,4 @@
-import sys, time, json, urllib.request, xml.etree.ElementTree as ET
+import sys, time, json, html, urllib.request, xml.etree.ElementTree as ET
 from pipeline import BASE
 def check(date):
     def read(path):
@@ -11,7 +11,7 @@ def check(date):
     assert registry[0]["date"]==date
     assert registry[0]["verification"]=="verified"
     assert date in home and date in archive
-    assert registry[0]["title"] in home and registry[0]["title"] in archive
+    assert html.escape(registry[0]["title"]) in home and html.escape(registry[0]["title"]) in archive
     assert rss.findtext("./channel/item/link")==BASE+"ediciones/"+date+"/"
     assert "eog-context-data" in home and "eog-context-data" in archive
 if __name__=="__main__":
