@@ -18,7 +18,9 @@ class Integration(unittest.TestCase):
             pipeline.save(work/"inbox"/"2026-11-27.json",d)
             def fake_fetch(url): return b"fixture", "image/png" if url.endswith(".png") else "text/html"
             with patch.object(pipeline,"SITE",site),patch.object(pipeline,"WORK",work),patch.object(pipeline,"fetch",side_effect=fake_fetch):
-                pipeline.publish(d["date"])
+                with self.assertRaises(ValueError): pipeline.publish(d["date"])
+                self.assertFalse((site/"index.html").exists())
+                pipeline.publish(d["date"], allow_fixture=True)
                 home=(site/"index.html").read_text()
                 self.assertIn("TEST ONLY",home)
                 self.assertIn("TEST IMAGE",home)
@@ -28,9 +30,9 @@ class Integration(unittest.TestCase):
                 self.assertEqual(oldpage.read_text(),"historical fixture")
                 self.assertEqual(len(ET.parse(site/"rss.xml").findall(".//item")),2)
                 self.assertIn(pipeline.BASE+"ediciones/2026-11-27/",(site/"ediciones"/d["date"]/"index.html").read_text())
-                with self.assertRaises(RuntimeError): pipeline.publish(d["date"])
+                with self.assertRaises(RuntimeError): pipeline.publish(d["date"], allow_fixture=True)
                 self.assertEqual((site/"index.html").read_text(),home)
                 d["date"]="2026-11-28"; d["cutoff_at"]="2026-11-28T06:00:00-05:00"; d["verification"]="partial"
                 pipeline.save(work/"inbox"/"2026-11-28.json",d)
-                with self.assertRaises(AssertionError): pipeline.publish(d["date"])
+                with self.assertRaises(AssertionError): pipeline.publish(d["date"], allow_fixture=True)
                 self.assertEqual((site/"index.html").read_text(),home)
