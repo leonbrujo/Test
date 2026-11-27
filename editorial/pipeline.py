@@ -75,8 +75,13 @@ def render(d,canonical):
         parts.append('</section>')
     dictionary=json.dumps(d["dictionary"],ensure_ascii=False).replace("<","\\u003c")
     return '<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+e(d["title"])+'</title><link rel="canonical" href="'+canonical+'"><link rel="stylesheet" href="'+BASE+'assets/contexto.css?v=1"><link rel="stylesheet" href="'+BASE+'assets/editorial.css"><script>if(performance.getEntriesByType("navigation")[0]?.type==="reload"){history.scrollRestoration="manual";addEventListener("pageshow",()=>scrollTo(0,0));}</script></head><body><header>El Observador Global</header><nav><a href="'+BASE+'">Portada</a> · <a href="'+BASE+'ediciones.json">Archivo</a> · <a href="'+BASE+'rss.xml">RSS</a></nav><main><p class="meta">'+e(d["cutoff_at"])+' · America/New_York</p><h1>'+e(d["title"])+'</h1>'+''.join(parts)+'</main><script id="eog-context-data" type="application/json">'+dictionary+'</script><script defer src="'+BASE+'assets/contexto.js?v=2"></script></body></html>'
-def publish(date):
-    d=validate(load(WORK/"inbox"/(date+".json")))
+def publish(date, *, allow_fixture=False):
+    dt.date.fromisoformat(date)
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}",date): raise ValueError("Invalid edition date")
+    d=load(WORK/"inbox"/(date+".json"))
+    if not allow_fixture and (d.get("fixture") or "TEST ONLY" in d.get("title","").upper()):
+        raise ValueError("Synthetic edition cannot be published")
+    d=validate(d)
     assert d["date"]==date
     archive=SITE/"ediciones"/date/"index.html"
     if archive.exists(): raise RuntimeError("Edition already exists; no overwrite")
