@@ -1,0 +1,46 @@
+# Candidate only: move into .github/workflows after approval and integration tests.
+name: Publish verified editorial edition
+on:
+  push:
+    branches: [main]
+    paths: ['editorial/inbox/*.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: observador-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s editorial -p 'test_*.py'
+      - name: Render current verified edition
+        run: |
+          set -eu
+          DATE=$(TZ=America/New_York date +%F)
+          test -f "editorial/inbox/$DATE.json"
+          python editorial/pipeline.py publish --date "$DATE"
+          echo "EDITION_DATE=$DATE" >> "$GITHUB_ENV"
+      - name: Commit complete edition together
+        run: |
+          git config user.name "observador-editorial[bot]"
+          git config user.email "observador-editorial[bot]@users.noreply.github.com"
+          git add -- observador-global/index.html observador-global/ediciones.json observador-global/rss.xml "observador-global/ediciones/$EDITION_DATE/index.html"
+          git diff --cached --check
+          git commit -m "Publish verified edition $EDITION_DATE"
+          git push origin HEAD:main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: observador-global
+      - uses: actions/deploy-pages@v4
+      - name: Verify public edition
+        run: python editorial/verify_public.py "$EDITION_DATE"
