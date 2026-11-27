@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-27",
+    "title": "El precio de los acuerdos",
+    "categories": [
+      "Europa",
+      "Economía",
+      "Política",
+      "Diplomacia",
+      "Justicia",
+      "Seguridad",
+      "Tecnología",
+      "Washington",
+      "Barrio",
+      "Deportes"
+    ],
+    "summary": "Europa llega al fin de semana sin acuerdo sobre sus recursos futuros ni sobre un préstamo para Ucrania. Al mismo tiempo, la elección de Pablo Hernández de Cos para el Banco Central Europeo abre una transición monetaria en una coyuntura exigente. En Nueva Zelanda, el resultado electoral definitivo obliga a negociar apoyos parlamentarios. Los tres hechos comparten un hilo conductor: las decisiones económicas y políticas dependen de instituciones capaces de convertir preferencias divergentes en compromisos verificables. En Washington, la alerta costera y el debate sobre servicios locales tienen consecuencias más inmediatas para los residentes.",
+    "cutoff_at": "2026-11-27T09:46:00-05:00",
+    "revision": 1,
+    "verification": "parcial"
+  },
+  {
     "date": "2026-11-26",
     "title": "Las arterias del poder mundial",
     "categories": [
