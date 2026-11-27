@@ -1,0 +1,15 @@
+{
+  "international": [
+    "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "https://www.aljazeera.com/xml/rss/all.xml",
+    "https://www.france24.com/en/rss",
+    "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+  ],
+  "local": [
+    "https://www.wmata.com/about/news/rss.xml",
+    "https://wtop.com/feed/"
+  ],
+  "sports": [
+    "https://www.tycsports.com/rss/river-plate.xml"
+  ]
+}
