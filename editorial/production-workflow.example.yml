@@ -18,6 +18,9 @@ jobs:
     environment: github-pages
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -37,6 +40,7 @@ jobs:
           git diff --cached --check
           git commit -m "Publish verified edition $EDITION_DATE"
           git push origin HEAD:main
+          # A concurrent update rejects this non-force push; never overwrite history.
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
